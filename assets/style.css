@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500;600;700&display=swap');
+:root {
+    --preto: #0C0B0B;
+    --cinza: #0F0E0E;
+    --branco: #B7B7B7;
+    --azul: #044A7D;
+    --verde: #046313;
+    --amarelo: #725200;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-family: 'Rubik', sans-serif;
+    justify-content: center;
+    align-items: center;
+}
+
+body {
+    background-color: var(--preto);
+    align-items: center;
+}
+
+h5 {
+    color: var(--branco);
+}
+
+h4 {
+    color: var(--branco);
+}
+
+p {
+    font-size: 1rem;
+    color: var(--branco);
+}
+
+.card {
+    background-color: var(--cinza);
+    margin: 50px 40px 40px 40px;
+    width: auto;
+}
+
+.perfil-edit {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding-top: 20px;
+}
+
+.perfil-edit .perfil {
+    display: flex;
+}
+
+.logo {
+    border-radius: 50%;
+}
